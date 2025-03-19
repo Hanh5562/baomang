@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Báo Mạng</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+    background-color: #e91e63; /* Màu hồng toàn bộ */
+    font-family: Arial, sans-serif;
+}
+
+.news-container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 20px auto;
+    overflow: hidden;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+
+        .news-item {
+            float: left;
+            width: 30%; /* Chia đều 3 cột */
+            margin: 1.5%;
+            background: white;
+            text-align: center;
+            padding: 10px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .news-item img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+
+        .news-item p {
+            margin-top: 10px;
+            font-size: 14px;
+        }
+
+        /* Responsive: Khi nhỏ hơn 768px, sẽ xuống hàng */
+        @media (max-width: 768px) {
+            .news-item {
+                width: 100%; /* Hiển thị 1 cột */
+                margin: 10px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="news-container">
+        <div class="news-item">
+            <img src="C:\Users\Admin\Downloads\anh1.jpg" alt="Tin tức 1">
+            <p>Vụ mẹ và bé 3 tháng tuổi rơi từ tầng 12 chung cư tử vong: Cảnh sát đặt nghi vấn do trầm cảm</p>
+        </div>
+
+        <div class="news-item">
+            <img src="C:\Users\Admin\Downloads\meo.jpg" alt="Tin tức 2">
+            <p>MXH khen ngợi anh CSGT áo dính đầy máu khi đưa cô gái bị nạn đi cấp cứu</p>
+        </div>
+
+        <div class="news-item">
+            <img src="C:\Users\Admin\Downloads\anh3.jpg" alt="Tin tức 3">
+            <p>Lại xuất hiện clip chốt bán đất nhanh như chớp xôn xao mạng </p>
+        </div>
+    </div>
+
+</body>
+</html>
